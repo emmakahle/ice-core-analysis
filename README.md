@@ -1,5 +1,6 @@
 # ice-core-analysis
 
+## Code Description
 Purpose: Produce climate data sets from measurements of the South Pole ice core
 
 Code Requirements: MATLAB license, curve fitting toolbox, signal processing toolbox, statistics and machine learning toolbox, symbolic math toolbox
@@ -9,4 +10,12 @@ Input measurements: high-resolution water isotopes, water isotope diffusion leng
 Output data sets: temperature history, accumulation rate history, thinning function for ice core record
 
 ## How to run
-The main file to run is main.m. Before running, select run settings in run_settings.m.
+Before running, select run settings in run_settings.m.
+Run the main.m script to run the code.
+
+## Results
+Results are automatically plotted in two versions: shaded histograms for each parameter and a summary plot, which shows the mean and standard deviation for each parameter.
+Output data sets are saved as .txt files for temperature, accumulation length, and thinning function. Columns in these files are age, mean, and standard deviation for each variable.
+
+## Reference
+This code accompanies Kahle, E. C. et al. (2020) "Temperature, accumulation rate, and layer thinning from the South Pole ice core (SPC14)" U.S. Antarctic Program (USAP) Data Center. doi: https://doi.org/10.15784/601396.
