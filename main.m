@@ -1,18 +1,5 @@
 %% Main Code: Monte Carlo Bayesian Inference Analysis - South Pole Ice Core
 
-% Purpose: Produce climate data sets from measurements of the South Pole
-% ice core
-
-% Code Requirements: MATLAB license, curve fitting toolbox, signal processing
-% toolbox, statistics and machine learning toolbox, symbolic math toolbox
-
-% Input measurements: high-resolution water isotopes, water isotope
-% diffusion length, annual-layer thickness, depth-age scale for ice core,
-% delta-age (difference between ice and gas age at given depth)
-
-% Output data sets: temperature history, accumulation rate history,
-% thinning function for ice core record
-
 %% Start timers and counters
 
 % Start timer to track length of run
