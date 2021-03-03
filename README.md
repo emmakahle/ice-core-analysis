@@ -18,4 +18,6 @@ Results are automatically plotted in two versions: shaded histograms for each pa
 Output data sets are saved as .txt files for temperature, accumulation length, and thinning function. Columns in these files are age, mean, and standard deviation for each variable.
 
 ## Reference
+This code is citeable using DOI: 10.5281/zenodo.4579416
+
 This code accompanies Kahle, E. C. et al. (2020) "Temperature, accumulation rate, and layer thinning from the South Pole ice core (SPC14)" U.S. Antarctic Program (USAP) Data Center. doi: https://doi.org/10.15784/601396.
